@@ -71,16 +71,18 @@ const books=[
 ]
 
 function App() {
-  return (
-    <div className="App">
-     <h1>Book List</h1>
-        <div>
-            {books.map((book)=>(
-                <Item key={book.id}
-                data={book}/>
-            ))}
-        </div>
-    </div>
+  return (  
+       <div>
+           <h1>Book List</h1>
+               <div className="App">
+            <div>
+                {books.map((book)=>(
+                    <Item key={book.id}
+                    data={book}/>
+                ))}
+            </div>
+               </div>
+       </div>
   );
 }
 

@@ -1,14 +1,18 @@
 .App {
   text-align: center;
-  background-color: rgba(233, 195, 145, 0.751);
+  /* background-color: rgba(233, 195, 145, 0.751); */
   padding-bottom: 2rem;
   color: rgb(78, 42, 6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1{
   background-color: rgb(78, 42, 6);
   color: bisque;
   height: 5rem;
   font-size: 3rem;
+  text-align: center;
 }
 .App-logo {
   height: 40vmin;
@@ -31,7 +35,6 @@ img{
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 16rem;
   background-color: rgb(255, 224, 187);
 }
 
