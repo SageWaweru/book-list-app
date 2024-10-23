@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer';
 import Item from './Components/Item';
 import book1 from './images/book1.png';
 import book2 from './images/book2.jpeg';
@@ -82,6 +83,7 @@ function App() {
                 ))}
             </div>
                </div>
+               <Footer/>
        </div>
   );
 }
