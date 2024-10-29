@@ -27,15 +27,14 @@ h4{
 }
 
 img{
-  width: 30vw;
+  width: 20vw;
   margin-top: 2rem;
-  height: 80vh;
 }
 
 .book-c{
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.623);
   margin: 2rem;
-  width: 50vw;
+  width: 29vw;
   border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -74,3 +73,6 @@ img{
     transform: rotate(360deg);
   }
 }
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

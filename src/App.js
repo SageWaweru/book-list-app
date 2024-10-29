@@ -74,9 +74,9 @@ const books=[
 function App() {
   return (  
        <div>
-           <h1>Book List</h1>
-               <div className="App">
-            <div>
+           <h1 className="text-5xl font-bold text-center my-4 pt-3">Book List</h1>
+               <div className="App ">
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4'>
                 {books.map((book)=>(
                     <Item key={book.id}
                     data={book}/>
